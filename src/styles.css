@@ -1,0 +1,84 @@
+.container {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #0a0a0a;
+}
+.container h1 {
+  font-size: 80px;
+  font-weight: 700;
+  color: #eee;
+}
+.search-div {
+  display: flex;
+  align-items: center;
+  margin: 20px 0;
+  color: #eee;
+}
+.search-div input {
+  padding: 20px 50px;
+  border: 0;
+  border-radius: 5px;
+  background: transparent;
+  color: #eee;
+  transition: all 300ms ease;
+}
+.search-div input::placeholder {
+  color: #eee;
+}
+.search-div input:hover {
+    outline: solid rgb(255, 255, 255, 0.2);
+}
+.search-div button {
+  margin-left: 15px;
+  border: 0;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  background: transparent;
+  transition: transform 300ms ease;
+}
+.search-div button:hover {
+  transform: scale(1.2);
+}
+.informations {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 28px;
+  padding: 28px;
+  background-color: #eee;
+  color: #0a0a0a;
+  border-radius: 8px;
+    transition: transform 300ms ease;
+}
+.informations:hover {
+    transform: scale(1.02);
+}
+.informations h2 {
+  font-size: 28px;
+  font-weight: 700;
+}
+.informations span {
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+}
+.github-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 48px;
+    background-color: transparent;
+    border: 0;
+    cursor: pointer;
+    transition: transform 300ms ease;
+}
+.github-icon:hover {
+    transform: scale(1.1);
+}
+.main-information {
+    font-weight: 700;
+}
